@@ -28,6 +28,9 @@ body {
 .navigation-link:focus {
   color: #2196f3;
 }
+.header-studio {
+  color: rgba(0, 0, 0, 1);
+}
 .navigation-list {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -41,22 +44,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-
-  color: #2196f3;
-}
-.logo-light-theme {
-  background: rgba(0, 0, 0, 1) background: rgba(255, 255, 255, 1);
-}
-.logo-dark-theme {
-  background: rgba(255, 255, 255, 1);
-}
-.logo-item {
-  font-family: var(--secondary-font);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  color: rgba(0, 0, 0, 1);
+  color: var(--accent-color);
 }
 /* ------ end header ---- */
 /* ----- hero------ */
@@ -179,6 +167,12 @@ body {
 }
 /* --- end Team--- */
 /* --footer-- */
+.footer-dark {
+  color: rgba(255, 255, 255, 1);
+}
+.footer-light {
+  color: rgba(0, 0, 0, 1);
+}
 
 .footer-link {
   font-family: var(--main-font);
