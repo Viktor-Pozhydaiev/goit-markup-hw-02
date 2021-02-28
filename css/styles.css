@@ -178,6 +178,9 @@ color:var(--title-color);
 }
 /* end WHAT_ARE_WE_DOING */
 /* ---Team--- */
+.our-team{
+  background-color: #F5F4FA;
+}
 
 .our-team-first {
   font-weight: 700;
