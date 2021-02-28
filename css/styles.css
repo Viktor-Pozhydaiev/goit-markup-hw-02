@@ -6,6 +6,9 @@
   --title-color: #212121;
   --secondary-color: #ffffff;
   --footer-color:#2F303A;
+  --footer-link-kolor:rgba(255, 255, 255, 0.6);
+  --bacgraund-color: #2F303A;
+  --bacground-secon-color: #F5F4FA;
 
 }
 body {
@@ -28,7 +31,7 @@ a {
 
 .list {
   list-style: none;
-  color: #757575;
+  color: var(--text-decoration-color);
 }
 
 .adress {
@@ -88,7 +91,7 @@ text-transform: uppercase;
 color: var(--secondary-color);
  
 }
-.heroo-color{ background-color: #2F303A;
+.heroo-color{ background-color: var(--bacgraund-color);
 
 }
 .modal-btn {
@@ -115,7 +118,7 @@ color: var(--secondary-color);
 /* --- main---- */
 .main-btn:hover,
 .main-btn:focus {
-  color: #F5F4FA;
+  color:var(--bacground-secon-color);
  background-color:  var(--accent-color);
 }
 .main-btn {
@@ -133,6 +136,7 @@ color: var(--secondary-color);
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  background-color: var(--secondary-color);
 }
 .projekt-list-item{
   font-family: var(--main-font);
@@ -179,7 +183,7 @@ color:var(--title-color);
 /* end WHAT_ARE_WE_DOING */
 /* ---Team--- */
 .our-team{
-  background-color: #F5F4FA;
+  background-color:var(--bacground-secon-color);
 }
 
 .our-team-first {
@@ -224,7 +228,7 @@ color: var(--secondary-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-link-kolor);
 }
 .foot-stile{
   background-color: var(--footer-color);
