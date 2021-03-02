@@ -10,6 +10,7 @@
   --bacgraund-color: #2F303A;
   --bacground-secon-color: #F5F4FA;
 
+
 }
 body {
   font-family: var(--main-font);
@@ -119,7 +120,7 @@ color: var(--secondary-color);
 .main-btn:hover,
 .main-btn:focus {
   color:var(--bacground-secon-color);
- background-color:  var(--accent-color);
+ background:  var(--accent-color);
 }
 .main-btn {
   font-family: inherit;
@@ -127,7 +128,9 @@ color: var(--secondary-color);
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color:var(--title-color);
+  background:var(--bacground-secon-color) ;
+
  
 }
 .projekt-item {
@@ -147,6 +150,7 @@ letter-spacing: 0.06em;
 color:var(--title-color);
 }
 .info-item {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
